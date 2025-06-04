@@ -72,6 +72,7 @@ sketch
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+.cursor
 
 # Local History for Visual Studio Code
 .history/
@@ -111,3 +112,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/react,git,visualstudiocode,windows,macos
+*storybook.log
+storybook-static
+stories-example

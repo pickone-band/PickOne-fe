@@ -18,6 +18,7 @@ module.exports = {
     "plugin:import/typescript",
     "prettier",
     "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
   ],
   parserOptions: {
     ecmaVersion: 2020,
