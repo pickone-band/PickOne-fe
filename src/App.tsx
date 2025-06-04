@@ -1,10 +1,10 @@
-import React from "react";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, PickOne!</h1>
-    </div>
+    <Layout>
+      <div className="py-30"> </div>
+    </Layout>
   );
 }
 
