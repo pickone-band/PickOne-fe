@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,10 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@storybook/addon-docs": "9.0.4",
+    "@storybook/addon-onboarding": "9.0.4",
+    "@storybook/addon-webpack5-compiler-swc": "3.0.0",
+    "@storybook/react-webpack5": "9.0.4",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
@@ -28,8 +34,10 @@
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-storybook": "9.0.4",
     "html-webpack-plugin": "^5.6.3",
     "prettier": "^3.5.3",
+    "storybook": "9.0.4",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.2",
     "typescript": "^5.8.3",
